@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Calculator
+    </title>
+    <!--including stylesheets-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!--setting charset-->
+    <meta charset="utf-8">
+</head>
+
+<body bgcolor="black">
+    <h1>Progate Day 8 Project!</h1>
+    <div class="calculator">
+        <input type="text" class="calculator-screen" value="0" disabled>
+        <div class="calculator-keys">
+            <div class="row">
+                <button class="all-clear">AC</button>
+                <button class="operator percentage" value="%">%</button>
+                <button class="operator" value="/">&divide;</button>
+            </div>
+            <div class="row">
+                <button class="number" value="7">7</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="9">9</button>
+                <button class="operator" value="*">&times;</button>
+            </div>
+            <div class="row">
+                <button class="number" value="4">4</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="6">6</button>
+                <button class="operator" value="-">-</button>
+            </div>
+            <div class="row">
+                <button class="number" value="1">1</button>
+                <button class="number" value="2">2</button>
+                <button class="number" value="3">3</button>
+                <button class="operator" value="+">+</button>
+            </div>
+            <div class="row">
+                <button class="number zero-btn" value="0">0</button>
+                <button class="number double-zero-btn" value="00">00</button>
+                <button class="number" value=".">.</button>
+                <button class="equal-sign" value="=">=</button>
+            </div>
+            <div class="row">
+                <button class="operator constant" value="pi">PI</button>
+                <button class="operator constant" value="e">e</button>
+                <button class="operator" value="sqrt">sqrt</button>
+                <button class="operator" value="^">^</button>
+                <button class="operator logx" value="Ln10">Ln10</button>
+            </div>
+            <div class="row">
+                <button class="operator tooltip" value="sin">sin<span class="tooltiptext">This calculator provides answers in gradians.</span></button>
+                <button class="operator tooltip" value="cos">cos<span class="tooltiptext">This calculator provides answers in gradians.</span></button>
+                <button class="operator tooltip" value="tan">tan<span class="tooltiptext">This calculator provides answers in gradians.</span></button>
+                <button class="operator exp" value="e^">e^</button>
+                <button class="operator logx" value="Ln2">Ln2</button>
+            </div>
+        </div>
+        <!--CALCULATOR KEYS DIV CLOSING-->
+    </div>
+    <!--CALCULATOR DIV CLOSING-->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
